@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">398104767404-eeccbon6ek7jiddi47i50fp54mfrlhgf.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">398104767404</string>
+    <string name="google_api_key" translatable="false">AIzaSyCe4kpMaQd1GdnUWsRQ-Be0Kjx5iuSKfcs</string>
+    <string name="google_app_id" translatable="false">1:398104767404:android:219c7f639b9014c90ea809</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCe4kpMaQd1GdnUWsRQ-Be0Kjx5iuSKfcs</string>
+    <string name="google_storage_bucket" translatable="false">necopia-ebe33.appspot.com</string>
+    <string name="project_id" translatable="false">necopia-ebe33</string>
+</resources>

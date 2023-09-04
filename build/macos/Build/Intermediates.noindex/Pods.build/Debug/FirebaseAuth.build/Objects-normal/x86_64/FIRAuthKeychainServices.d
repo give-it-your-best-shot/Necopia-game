@@ -1,0 +1,47 @@
+dependencies: \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Storage/FIRAuthKeychainServices.m \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseAuth.build/module.modulemap \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Storage/FIRAuthKeychainServices.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/xcselect.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/kcdata.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/uuid.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/netinet6.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/machine.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/device.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach_debug.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach_machine.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/bank.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/darwin_posix_sys_types.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/netinet.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/net.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/darwin_cdefs.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FirebaseCoreInternal.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCore.build/module.modulemap \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRAppInternal.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponent.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponentContainer.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponentType.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRDependency.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRHeartbeatLogger.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRLibrary.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRLogger.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIROptionsInternal.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuth_Internal.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseAuth/Interop/FIRAuthInterop.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuth.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthAPNSTokenType.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthErrors.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Storage/FIRAuthUserDefaults.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthErrorUtils.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactorInfo.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthInternalErrors.h

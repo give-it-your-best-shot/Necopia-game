@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/debugging/symbolize.cc \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/Target\ Support\ Files/abseil/abseil-prefix.pch \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/debugging/symbolize.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/debugging/internal/symbolize.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/base/config.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/base/options.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/base/policy_checks.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/strings/string_view.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/base/attributes.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/base/internal/throw_delegate.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/base/macros.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/base/optimization.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/base/port.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/debugging/symbolize_darwin.inc \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/base/internal/raw_logging.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/base/internal/atomic_hook.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/base/log_severity.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/debugging/internal/demangle.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/strings/numbers.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/base/internal/endian.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/base/casts.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/base/internal/identity.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/meta/type_traits.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/base/internal/unaligned_access.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/numeric/bits.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/numeric/internal/bits.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/numeric/int128.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/numeric/int128_have_intrinsic.inc \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/abseil/absl/strings/str_cat.h

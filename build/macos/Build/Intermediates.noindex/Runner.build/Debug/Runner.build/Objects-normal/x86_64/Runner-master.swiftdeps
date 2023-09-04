@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "2b97b8c12ea7ca70639539541ce2f45d373632fe862915003a14edfd9c1bd220"
+build_start_time: [1690608413, 521191120]
+build_end_time: [1690608424, 769163131]
+inputs:
+  "/Users/monsieurcharcuter/Desktop/Necopia-game/macos/Flutter/GeneratedPluginRegistrant.swift": [1690608061, 770314693]
+  "/Users/monsieurcharcuter/Desktop/Necopia-game/macos/Runner/AppDelegate.swift": [1690525419, 406684398]
+  "/Users/monsieurcharcuter/Desktop/Necopia-game/macos/Runner/MainFlutterWindow.swift": [1690525419, 411032676]

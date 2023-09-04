@@ -1,0 +1,250 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.necopia"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/monsieurcharcuter/Desktop/Necopia-game/android/app/src/main/AndroidManifest.xml:38:5-66
+15-->/Users/monsieurcharcuter/Desktop/Necopia-game/android/app/src/main/AndroidManifest.xml:38:22-64
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/monsieurcharcuter/Desktop/Necopia-game/android/app/src/main/AndroidManifest.xml:35:5-79
+16-->/Users/monsieurcharcuter/Desktop/Necopia-game/android/app/src/main/AndroidManifest.xml:35:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/Users/monsieurcharcuter/Desktop/Necopia-game/android/app/src/main/AndroidManifest.xml:36:5-81
+17-->/Users/monsieurcharcuter/Desktop/Necopia-game/android/app/src/main/AndroidManifest.xml:36:22-78
+18    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+18-->/Users/monsieurcharcuter/Desktop/Necopia-game/android/app/src/main/AndroidManifest.xml:37:5-85
+18-->/Users/monsieurcharcuter/Desktop/Necopia-game/android/app/src/main/AndroidManifest.xml:37:22-82
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->[:geolocator_android] /Users/monsieurcharcuter/Desktop/Necopia-game/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+19-->[:geolocator_android] /Users/monsieurcharcuter/Desktop/Necopia-game/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-74
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:26:5-79
+20-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:26:22-76
+21
+22    <permission
+22-->[androidx.core:core:1.10.1] /Users/monsieurcharcuter/.gradle/caches/transforms-3/10af854261133a844cc6e400c61a0db2/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.necopia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.10.1] /Users/monsieurcharcuter/.gradle/caches/transforms-3/10af854261133a844cc6e400c61a0db2/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.10.1] /Users/monsieurcharcuter/.gradle/caches/transforms-3/10af854261133a844cc6e400c61a0db2/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.example.necopia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.10.1] /Users/monsieurcharcuter/.gradle/caches/transforms-3/10af854261133a844cc6e400c61a0db2/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.10.1] /Users/monsieurcharcuter/.gradle/caches/transforms-3/10af854261133a844cc6e400c61a0db2/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+27
+28    <application
+29        android:name="android.app.Application"
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.10.1] /Users/monsieurcharcuter/.gradle/caches/transforms-3/10af854261133a844cc6e400c61a0db2/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+33        android:label="Necopia"
+34        android:usesCleartextTraffic="true" >
+35        <activity
+36            android:name="com.example.necopia.MainActivity"
+37            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+38            android:exported="true"
+39            android:hardwareAccelerated="true"
+40            android:launchMode="singleTop"
+41            android:theme="@style/LaunchTheme"
+42            android:windowSoftInputMode="adjustResize" >
+43
+44            <!--
+45                 Specifies an Android theme to apply to this Activity as soon as
+46                 the Android process has started. This theme is visible to the user
+47                 while the Flutter UI initializes. After that, this theme continues
+48                 to determine the Window background behind the Flutter UI.
+49            -->
+50            <meta-data
+51                android:name="io.flutter.embedding.android.NormalTheme"
+52                android:resource="@style/NormalTheme" />
+53
+54            <intent-filter>
+55                <action android:name="android.intent.action.MAIN" />
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+58            </intent-filter>
+59        </activity>
+60        <!--
+61             Don't delete the meta-data below.
+62             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+63        -->
+64        <meta-data
+65            android:name="flutterEmbedding"
+66            android:value="2" />
+67
+68        <service
+68-->[:firebase_auth] /Users/monsieurcharcuter/Desktop/Necopia-game/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+69            android:name="com.google.firebase.components.ComponentDiscoveryService"
+69-->[:firebase_auth] /Users/monsieurcharcuter/Desktop/Necopia-game/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+70            android:directBootAware="true"
+70-->[com.google.firebase:firebase-common:20.3.2] /Users/monsieurcharcuter/.gradle/caches/transforms-3/65dee440d70f74f794f61f7f10138ded/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+71            android:exported="false" >
+71-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:68:13-37
+72            <meta-data
+72-->[:firebase_auth] /Users/monsieurcharcuter/Desktop/Necopia-game/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+73-->[:firebase_auth] /Users/monsieurcharcuter/Desktop/Necopia-game/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[:firebase_auth] /Users/monsieurcharcuter/Desktop/Necopia-game/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+75            <meta-data
+75-->[:cloud_firestore] /Users/monsieurcharcuter/Desktop/Necopia-game/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+76-->[:cloud_firestore] /Users/monsieurcharcuter/Desktop/Necopia-game/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[:cloud_firestore] /Users/monsieurcharcuter/Desktop/Necopia-game/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+78            <meta-data
+78-->[:firebase_core] /Users/monsieurcharcuter/Desktop/Necopia-game/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+79-->[:firebase_core] /Users/monsieurcharcuter/Desktop/Necopia-game/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:firebase_core] /Users/monsieurcharcuter/Desktop/Necopia-game/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:69:13-71:85
+82                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+82-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:70:17-109
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:71:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-firestore:24.6.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/a3ab6fd1b46a37cbb672aeb5a8023cd7/transformed/jetified-firebase-firestore-24.6.0/AndroidManifest.xml:19:13-21:85
+85                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+85-->[com.google.firebase:firebase-firestore:24.6.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/a3ab6fd1b46a37cbb672aeb5a8023cd7/transformed/jetified-firebase-firestore-24.6.0/AndroidManifest.xml:20:17-111
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-firestore:24.6.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/a3ab6fd1b46a37cbb672aeb5a8023cd7/transformed/jetified-firebase-firestore-24.6.0/AndroidManifest.xml:21:17-82
+87        </service>
+88        <service
+88-->[:geolocator_android] /Users/monsieurcharcuter/Desktop/Necopia-game/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:56
+89            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+89-->[:geolocator_android] /Users/monsieurcharcuter/Desktop/Necopia-game/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-77
+90            android:enabled="true"
+90-->[:geolocator_android] /Users/monsieurcharcuter/Desktop/Necopia-game/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-35
+91            android:exported="false"
+91-->[:geolocator_android] /Users/monsieurcharcuter/Desktop/Necopia-game/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
+92            android:foregroundServiceType="location" />
+92-->[:geolocator_android] /Users/monsieurcharcuter/Desktop/Necopia-game/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-53
+93
+94        <activity
+94-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:29:9-46:20
+95            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+95-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:30:13-80
+96            android:excludeFromRecents="true"
+96-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:31:13-46
+97            android:exported="true"
+97-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:32:13-36
+98            android:launchMode="singleTask"
+98-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:33:13-44
+99            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+99-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:34:13-72
+100            <intent-filter>
+100-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:35:13-45:29
+101                <action android:name="android.intent.action.VIEW" />
+101-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:36:17-69
+101-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:36:25-66
+102
+103                <category android:name="android.intent.category.DEFAULT" />
+103-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:38:17-76
+103-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:38:27-73
+104                <category android:name="android.intent.category.BROWSABLE" />
+104-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:39:17-78
+104-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:39:27-75
+105
+106                <data
+106-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:41:17-44:51
+107                    android:host="firebase.auth"
+107-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:42:21-49
+108                    android:path="/"
+108-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:43:21-37
+109                    android:scheme="genericidp" />
+109-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:44:21-48
+110            </intent-filter>
+111        </activity>
+112        <activity
+112-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:47:9-64:20
+113            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+113-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:48:13-79
+114            android:excludeFromRecents="true"
+114-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:49:13-46
+115            android:exported="true"
+115-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:50:13-36
+116            android:launchMode="singleTask"
+116-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:51:13-44
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+117-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:52:13-72
+118            <intent-filter>
+118-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:53:13-63:29
+119                <action android:name="android.intent.action.VIEW" />
+119-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:36:17-69
+119-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:36:25-66
+120
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:38:17-76
+121-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:38:27-73
+122                <category android:name="android.intent.category.BROWSABLE" />
+122-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:39:17-78
+122-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:39:27-75
+123
+124                <data
+124-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:41:17-44:51
+125                    android:host="firebase.auth"
+125-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:42:21-49
+126                    android:path="/"
+126-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:43:21-37
+127                    android:scheme="recaptcha" />
+127-->[com.google.firebase:firebase-auth:22.0.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e2cbe3ffabe4540f671da3c1212471ca/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:44:21-48
+128            </intent-filter>
+129        </activity>
+130
+131        <uses-library
+131-->[androidx.window:window:1.0.0-beta04] /Users/monsieurcharcuter/.gradle/caches/transforms-3/0a60ad9d6481d4ccd616a6864ab2c241/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+132            android:name="androidx.window.extensions"
+132-->[androidx.window:window:1.0.0-beta04] /Users/monsieurcharcuter/.gradle/caches/transforms-3/0a60ad9d6481d4ccd616a6864ab2c241/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+133            android:required="false" />
+133-->[androidx.window:window:1.0.0-beta04] /Users/monsieurcharcuter/.gradle/caches/transforms-3/0a60ad9d6481d4ccd616a6864ab2c241/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+134        <uses-library
+134-->[androidx.window:window:1.0.0-beta04] /Users/monsieurcharcuter/.gradle/caches/transforms-3/0a60ad9d6481d4ccd616a6864ab2c241/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+135            android:name="androidx.window.sidecar"
+135-->[androidx.window:window:1.0.0-beta04] /Users/monsieurcharcuter/.gradle/caches/transforms-3/0a60ad9d6481d4ccd616a6864ab2c241/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+136            android:required="false" />
+136-->[androidx.window:window:1.0.0-beta04] /Users/monsieurcharcuter/.gradle/caches/transforms-3/0a60ad9d6481d4ccd616a6864ab2c241/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+137
+138        <provider
+138-->[com.google.firebase:firebase-common:20.3.2] /Users/monsieurcharcuter/.gradle/caches/transforms-3/65dee440d70f74f794f61f7f10138ded/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+139            android:name="com.google.firebase.provider.FirebaseInitProvider"
+139-->[com.google.firebase:firebase-common:20.3.2] /Users/monsieurcharcuter/.gradle/caches/transforms-3/65dee440d70f74f794f61f7f10138ded/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+140            android:authorities="com.example.necopia.firebaseinitprovider"
+140-->[com.google.firebase:firebase-common:20.3.2] /Users/monsieurcharcuter/.gradle/caches/transforms-3/65dee440d70f74f794f61f7f10138ded/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+141            android:directBootAware="true"
+141-->[com.google.firebase:firebase-common:20.3.2] /Users/monsieurcharcuter/.gradle/caches/transforms-3/65dee440d70f74f794f61f7f10138ded/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+142            android:exported="false"
+142-->[com.google.firebase:firebase-common:20.3.2] /Users/monsieurcharcuter/.gradle/caches/transforms-3/65dee440d70f74f794f61f7f10138ded/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+143            android:initOrder="100" />
+143-->[com.google.firebase:firebase-common:20.3.2] /Users/monsieurcharcuter/.gradle/caches/transforms-3/65dee440d70f74f794f61f7f10138ded/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+144
+145        <activity
+145-->[com.google.android.gms:play-services-base:18.1.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e82557fddb81fbe2955b67369b7618a6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+146            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+146-->[com.google.android.gms:play-services-base:18.1.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e82557fddb81fbe2955b67369b7618a6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+147            android:exported="false"
+147-->[com.google.android.gms:play-services-base:18.1.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e82557fddb81fbe2955b67369b7618a6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+148            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+148-->[com.google.android.gms:play-services-base:18.1.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/e82557fddb81fbe2955b67369b7618a6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+149
+150        <meta-data
+150-->[com.google.android.gms:play-services-basement:18.1.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/7dc1f41420e28bcacfe125c3d1b945c2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+151            android:name="com.google.android.gms.version"
+151-->[com.google.android.gms:play-services-basement:18.1.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/7dc1f41420e28bcacfe125c3d1b945c2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+152            android:value="@integer/google_play_services_version" />
+152-->[com.google.android.gms:play-services-basement:18.1.0] /Users/monsieurcharcuter/.gradle/caches/transforms-3/7dc1f41420e28bcacfe125c3d1b945c2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+153    </application>
+154
+155</manifest>

@@ -1,0 +1,29 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "b0e54e4a6b1406b0f18b48a138ac0808d0623bd6983b9850105d3181be64a6c5"
+build_start_time: [1690607965, 314385890]
+build_end_time: [1690607982, 162624835]
+inputs:
+  ? "/Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Heartbeat.swift"
+  : [1690607893, 319916963]
+  ? "/Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatController.swift"
+  : [1690607893, 323041439]
+  ? "/Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatLoggingTestUtils.swift"
+  : [1690607893, 325015544]
+  ? "/Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatStorage.swift"
+  : [1690607893, 326195478]
+  ? "/Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsBundle.swift"
+  : [1690607893, 326991081]
+  ? "/Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsPayload.swift"
+  : [1690607893, 328758716]
+  ? "/Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/RingBuffer.swift"
+  : [1690607893, 320913791]
+  ? "/Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Storage.swift"
+  : [1690607893, 318189620]
+  ? "/Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/StorageFactory.swift"
+  : [1690607893, 329566955]
+  ? "/Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/WeakContainer.swift"
+  : [1690607893, 327805995]
+  ? "/Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatController.swift"
+  : [1690607893, 321842670]
+  ? "/Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatsPayload.swift"
+  : [1690607893, 323913097]

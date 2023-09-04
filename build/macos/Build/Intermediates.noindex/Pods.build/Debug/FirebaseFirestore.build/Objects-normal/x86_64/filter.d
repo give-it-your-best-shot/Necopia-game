@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseFirestore/Firestore/core/src/core/filter.cc \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseFirestore/Firestore/core/src/core/filter.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseFirestore/Firestore/core/src/model/model_fwd.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseFirestore/Firestore/Protos/nanopb/google/firestore/v1/document.nanopb.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/nanopb/pb.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseFirestore/Firestore/Protos/nanopb/google/protobuf/struct.nanopb.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseFirestore/Firestore/Protos/nanopb/google/protobuf/timestamp.nanopb.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/macos/Pods/FirebaseFirestore/Firestore/Protos/nanopb/google/type/latlng.nanopb.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/types/optional.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/config.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/options.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/policy_checks.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/utility/utility.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/inline_variable.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/identity.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/invoke.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/meta/type_traits.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/attributes.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/types/bad_optional_access.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/types/internal/optional.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/memory/memory.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/macros.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/optimization.h \
+  /Users/monsieurcharcuter/Desktop/Necopia-game/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/port.h

@@ -1,1 +1,3 @@
-# Necopia-game
+# necopia
+
+A new Flutter project.
